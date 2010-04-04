@@ -1,0 +1,7 @@
+all:
+  doctrine:
+    class:        sfDoctrineDatabase
+    param:
+      classname:  Doctrine
+      dsn:        mysql:dbname=sympalweb;host=localhost
+      username:   root

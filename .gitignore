@@ -1,0 +1,11 @@
+config/databases.yml
+config/properties.ini
+
+cache
+log
+web/uploads
+web/cache
+base
+
+data/*.index
+data/sql
