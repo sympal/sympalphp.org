@@ -18,5 +18,6 @@ all:
       - 0.7.0__1
       - 0.7.0__2
       - 1.0.0_ALPHA4__1
+      - 1.0.0_ALPHA4__2
     language_codes:
       - en
