@@ -12,9 +12,10 @@ all:
       requires_auth: false
     sfSympalTagsPlugin:
       installed: false
-    current_version: 1.0.0-DEV
+    current_version: 1.0.0-ALPHA3
     i18n: true
     upgrade_version_history:
       - 0.7.0__1
       - 0.7.0__2
-    language_codes: [en]
+    language_codes:
+      - en
