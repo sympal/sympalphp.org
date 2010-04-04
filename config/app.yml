@@ -17,5 +17,6 @@ all:
     upgrade_version_history:
       - 0.7.0__1
       - 0.7.0__2
+      - 1.0.0_ALPHA4__1
     language_codes:
       - en
