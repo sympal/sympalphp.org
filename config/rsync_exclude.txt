@@ -6,3 +6,8 @@
 /data/*.index
 /config/databases.yml
 /web/sympal_demo
+
+# Demo things
+reset.log
+data/demo.sqlite
+web/robots.txt
