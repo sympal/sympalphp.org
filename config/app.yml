@@ -1,6 +1,5 @@
 all:
   sympal_config:
-    default_theme: sympal
     installed: true
     sfSympalBlogPlugin:
       installed: true
@@ -19,5 +18,8 @@ all:
       - 0.7.0__2
       - 1.0.0_ALPHA4__1
       - 1.0.0_ALPHA4__2
+      - 1.0.0_ALPHA4__3
     language_codes:
       - en
+    theme:
+      default_theme: sympal
