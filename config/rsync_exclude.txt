@@ -2,4 +2,7 @@
 /web/uploads/*
 /cache/*
 /log/*
-/web/*_dev.php
+/web/cache
+/data/*.index
+/config/databases.yml
+/web/sympal_demo
