@@ -1,0 +1,4 @@
+<?php
+// Use this file to set server-specific settings
+
+sfConfig::set('enable_analytics', false);

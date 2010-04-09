@@ -10,5 +10,11 @@ class ProjectConfiguration extends sfProjectConfiguration
     sfYaml::setSpecVersion('1.1');
     require_once(sfConfig::get('sf_plugins_dir').'/sfSympalPlugin/config/sfSympalPluginConfiguration.class.php');
     sfSympalPluginConfiguration::enableSympalPlugins($this);
+    
+    $configPath = dirname(__FILE__).'/server_config.php';
+    if (file_exists($configPath))
+    {
+      require $configPath;
+    }
   }
 }

@@ -1,2 +1,6 @@
 # default values
 #all:
+prod:
+  sympal_config:
+    # Custom code so that the demo doesn't have analytics code
+    google_analytics_code:  <?php echo (sfConfig::get('enable_analytics')) ? 'UA-89373-22' : false; ?>

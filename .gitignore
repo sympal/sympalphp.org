@@ -1,5 +1,6 @@
 config/databases.yml
 config/properties.ini
+config/server_config.php
 
 cache
 log
