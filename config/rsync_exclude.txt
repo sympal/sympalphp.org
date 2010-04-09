@@ -6,8 +6,12 @@
 /data/*.index
 /config/databases.yml
 /web/sympal_demo
+/web/demo_dev.php
+/config/server_config.php
 
 # Demo things
 reset.log
 data/demo.sqlite
 web/robots.txt
+apps/sympal/config/factories.yml
+reset.php
