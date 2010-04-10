@@ -19,6 +19,7 @@ all:
       - 1.0.0_ALPHA4__1
       - 1.0.0_ALPHA4__2
       - 1.0.0_ALPHA4__3
+      - 1.0.0_ALPHA4__4
     language_codes:
       - en
     theme:
