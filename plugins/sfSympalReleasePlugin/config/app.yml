@@ -1,0 +1,7 @@
+all:
+  sympal_config:
+    content_types:
+      CoreRelease:
+        content_templates:
+          default_view:
+            template:      core_release/view

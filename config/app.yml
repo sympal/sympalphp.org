@@ -24,3 +24,5 @@ all:
       - en
     theme:
       default_theme: sympal
+    sfSympalReleasePlugin:
+      installed: true
