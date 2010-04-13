@@ -5,3 +5,6 @@ all:
         content_templates:
           default_view:
             template:      core_release/view
+        content_slots:
+          details:
+            type:     Markdown
