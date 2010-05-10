@@ -20,10 +20,10 @@ all:
       - 1.0.0_ALPHA4__2
       - 1.0.0_ALPHA4__3
       - 1.0.0_ALPHA4__4
+      - 1.0.0_ALPHA4__5
+      - 1.0.0_ALPHA5__1
     language_codes:
       - en
-
-
   theme:
     controller_options:
       default_theme: sympal
