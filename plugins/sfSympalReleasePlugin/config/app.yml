@@ -6,5 +6,10 @@ all:
           default_view:
             template:      core_release/view
         content_slots:
+          title:
+            edit_mode: inline
+          archive_filename:
+            edit_mode: inline
           details:
-            type:     Markdown
+            type:      Markdown
+            edit_mode: inline
