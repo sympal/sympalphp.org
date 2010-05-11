@@ -40,6 +40,14 @@ all:
       generate_shortest_url:            true
       extra_parameters_as_query_string: true
 
+  logger:
+    class: sfAggregateLogger
+    param:
+      loggers:
+        sf_web_debug:
+          param:
+            xdebug_logging:  true
+
 #all:
 #  controller:
 #    class: sfFrontWebController
