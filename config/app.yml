@@ -27,3 +27,5 @@ all:
   theme:
     controller_options:
       default_theme: sympal
+    sfSympalReleasePlugin:
+      installed: true

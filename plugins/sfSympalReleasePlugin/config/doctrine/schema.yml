@@ -1,0 +1,7 @@
+CoreRelease:
+  actAs: [sfSympalContentTypeTemplate]
+  columns:
+    title:    string(255)
+    details:  clob
+    version:  string(50)
+    archive_filename: string(255)
