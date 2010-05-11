@@ -5,3 +5,10 @@ all:
         content_templates:
           default_view:
             template:      core_release/view
+        content_slots:
+          archive_filename:
+            edit_mode:     inline
+            type:          Text
+          details:
+            edit_mode:     inline
+            type:          Markdown

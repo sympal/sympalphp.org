@@ -11,7 +11,7 @@ all:
       requires_auth: false
     sfSympalTagsPlugin:
       installed: false
-    current_version: 1.0.0-ALPHA4
+    current_version: 1.0.0-ALPHA5
     i18n: true
     upgrade_version_history:
       - 0.7.0__1
@@ -24,6 +24,8 @@ all:
       - 1.0.0_ALPHA5__1
     language_codes:
       - en
+    sfSympalReleasePlugin:
+      installed: true
   theme:
     controller_options:
       default_theme: sympal
